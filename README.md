@@ -63,13 +63,13 @@ We highly appreciate you sending us a postcard from your hometown, mentioning wh
 You can install the package via composer:
 
 ```bash
-composer require spatie/laravel-google-calendar
+composer require hamedmax73/laravel-google-calendar
 ```
 
 You must publish the configuration with this command:
 
 ```bash
-php artisan vendor:publish --provider="Spatie\GoogleCalendar\GoogleCalendarServiceProvider"
+php artisan vendor:publish --provider="hamedmax73\laravel-google-calender\GoogleCalendarServiceProvider"
 ```
 
 This will publish a file called `google-calendar.php` in your config-directory with these contents:
